@@ -330,28 +330,9 @@ A. TestNG is quite similar to JUnit, but with added functionalities and features
    parameterization, and more. It is inspired by JUnit and NUnit.
 
 What are the dependencies for this project?
-A. 1 <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-   <dependency>
-   <groupId>mysql</groupId>
-   <artifactId>mysql-connector-java</artifactId>
-   <version>8.0.27</version>
-   </dependency>
-   2 <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
-     <dependency>
-     <groupId>org.mongodb</groupId>
-     <artifactId>mongo-java-driver</artifactId>
-     <version>3.12.10</version>
-     </dependency>
-    3 <!-- https://mvnrepository.com/artifact/junit/junit -->
-     <dependency>
-     <groupId>junit</groupId>
-     <artifactId>junit</artifactId>
-      <version>4.13.2</version>
-      <scope>test</scope>
-      </dependency>
-      <maven.compiler.source>17</maven.compiler.source>
-      <maven.compiler.target>17</maven.compiler.target>
-
+A. mango db dependencies
+   mysql dependencies
+   junit dependencies
 what is dependency injection in java?
 A. Dependency injection is a technique that allows the client code to be independent from the services it is relying on.
 The client does not control how objects of the services are created - it works with an implementation of the service through
