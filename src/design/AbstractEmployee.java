@@ -1,7 +1,7 @@
 package design;
 
 public abstract class AbstractEmployee implements Employee {
-
+//creating and implementing abstract class
     // Abstract class is not fully abstract
 
     int yearsOfExperience = 20;
